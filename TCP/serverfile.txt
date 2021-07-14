@@ -1,0 +1,28 @@
+TCP and UDP protocols
+There are two major protocols used for network traffic in the transport layer in the Internet. They
+are namely , Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). Both of
+them reside in the Transport Layer of OSI model. Transport layer is the layer that focuses on
+process to process communication. i.e., breaking the message into manageable piece s (packets) and
+multipl exing data between processes.
+The difference between the two in the view of the programmer is the reliability of the two. TCP
+aims to provide an error free and a reliable data transfer while the UDP expects the upper layers to
+trea t the data transfer as inherently unreliable and handle the e rrors and ordering of packets.
+To provide the reliability, TCP creates a 'circuit', essentially a path for the packets to travel to the
+destination. This preserves the ordering of the packets an d prevents duplication. Therefore, these are
+guaranteed when using TCP.
+UDP on the other hand does not create such a path. The packets are on their own to figure out a path
+from the source to destination. This might result in packet drops, duplication of packets and out of
+order sequencing of packets. Therefore UDP does not provide an y guarantee for any of these.
+Both of these protocols are implemented on top of Internet Protocol (IP). A basic protocol in
+Internet Layer of the OSI model. This is the laye r that focuses on host to host communication.
+Internet Protocol essentially treats the underlying network as unreliable and does not provide any
+error checking or sequencing services.TCP and UDP protocols
+There are two major protocols used for network traffic in the transport layer in the Internet. They
+are namely , Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). Both of
+them reside in the Transport Layer of OSI model. Transport layer is the layer that focuses on
+process to process communication. i.e., breaking the message into manageable piece s (packets) and
+multipl exing data between processes.
+The difference between the two in the view of the programmer is the reliability of the two. TCP
+aims to provide an error free and a reliable data transfer while the UDP expects the upper layers to
+trea t the data transfer as inherently unreliable and handle the e rrors and ordering of packets.
+To provide the reliability, TCP creates a 'circuit', essentially a path for the packets to travel to the
